@@ -1,0 +1,246 @@
+/***** KNIGHT CONSTRUCTION STYLESHEET *****/
+
+/*********FONT-FACE*************/
+
+@font-face {
+	font-family: 'Wisdom Script Regular';
+	font-style: normal;
+	font-weight: normal;
+	src: url('../fonts/Wisdom Script AJ.woff') format('woff');
+}
+
+/*********BASE STYLE************/
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	color: white;
+	background-color: grey;
+	text-transform: uppercase;
+	padding: 10px;
+	margin: 0;
+}
+
+.hero-area img {
+	width: 100%;
+  	height: 400px;
+  	margin: 0 auto;
+  	display: block;
+}
+
+.content {
+	max-width: 100%;
+	margin: auto;
+}
+
+/*********GRID******************/
+
+.full-width {
+	width: 100%;
+}
+
+.third-width {
+	float: left;
+	height: auto;
+	width: 33%;
+}
+
+.half-width {
+	width: 50%;
+	float: left;
+	margin: auto;
+}
+
+/******* HEADER *************/
+
+h1 {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+header span {
+	color: maroon;
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    color: maroon;
+    font-size: 14px;
+    padding: 20px 0 0 20px;
+    font-weight: bold;
+}
+
+nav ul li a{
+	text-decoration: none;
+	color: maroon;
+}
+
+nav {
+	float: right;
+}
+
+/*************** HOME *************/
+
+#home h2 {
+	color: maroon;
+	margin: 0;
+	padding: 20px;
+	font-size: 24px;	
+	text-align: center;
+}
+
+#home p {
+	font-size: 16px;
+	margin: 0;
+	padding: 0 0 30px 0;
+	text-transform: none;
+}
+
+/*************** INFO *************/
+
+#info h3 {
+	font-size: 12px;
+}
+
+#info p {
+	font-size: 16px;
+	text-transform: none;
+}
+
+
+#info #specials {
+	padding: 30px 30px 0 0;
+}
+
+#info #reviews {
+	border-right: 1px solid #dedbdc;
+	border-left: 1px solid #dedbdc;
+	padding: 30px;
+}
+
+#info #address {
+	padding: 30px 0 0 30px;
+}
+
+#info li {
+	list-style: none;
+	line-height: 30px;
+	color: maroon;
+	text-transform: none;
+}
+
+/***************FOOTER************/
+
+#footer h1 {
+	clear: both;
+	font-size: 16px;
+	padding: 35px;
+	text-align: center;
+	border-top: 1px solid #dedbdc;
+}
+
+#footer span#fresh {
+	font-family: 'Wisdom Script Regular';
+	font-size: 20px;
+	color: maroon;
+}
+
+/************ CALCULATORS **********/
+
+#calculators {
+	text-align: center;
+}
+
+#calculators h2 {
+	color: maroon;
+	font-size: 18px;
+	padding: 20px;
+}
+
+#calculators p {
+	font-size: 16px;
+	margin: 0;
+	padding: 0 0 30px 0;
+	text-transform: none;
+}
+
+/************ CONTACT US **********/
+
+#contact-us {
+
+}
+
+#contact-us h2 {
+	color: maroon;
+	font-size: 18pt;
+	padding: 20px;
+	text-align: center;
+}
+
+#contact-us p {
+	font-size: 16px;
+	margin: 0;
+	padding: 0 0 30px 0;
+	text-transform: none;
+	text-align: center;
+}
+
+.submission-form {
+	border: 2px solid black;
+	border-radius: 20px;
+	max-width: 500px;
+	margin: 20px auto;
+	background-color: maroon;
+	padding: 20px;
+	box-shadow: 2px;
+}
+
+label {
+	display: block;
+	font-size: 18px;
+	padding: 1rem 0 .25rem;
+	text-transform: none;
+	width: 100%;
+}
+
+input, textarea {
+	border: 1px solid maroon;
+	border-radius: 20px;
+	color: black;
+	display: block;
+	padding: .5rem .5rem .5rem .5rem;
+	width: 90%;
+}
+
+.sendBtn {
+	border: 0;
+	background: blue;
+	padding: .5rem;
+	color: white;
+	margin: 1rem 0;
+	width: auto;
+	text-transform: uppercase;
+	cursor: pointer;
+	transition: 1s background ease;
+}
+
+.sendBtn:hover{
+	background: lightblue;
+	}
+
+input [type=text] {
+	text-transform: lowercase;
+}
+
+}
+
+
+
+
+
+
+
+
+
+
